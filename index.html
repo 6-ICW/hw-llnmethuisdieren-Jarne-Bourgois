@@ -26,7 +26,7 @@
           </select>
           <div class="invalid-feedback">Kies een naam.</div>
         </div>
-        <div id="vullerlijst"></div>
+        <div id="vullerlijst" ></div>
 
         <!-- Checkbox onder de select -->
         <div id="checkbox" class="form-check mb-3">
@@ -36,27 +36,13 @@
             value=""
             id="heeftHuisdieren"
           />
-          <label class="form-check-label" for="extraCheck">
+          <label class="form-check-label" for="heeftHuisdieren">
             Ik heb huisdieren
           </label>
         </div>
 
-        <!-- Invulveld (verstopt tot checkbox aan) -->
-        <div id="naamHuisdierWrap" class="mb-3 visually-hidden">
-          <label for="naamHuisdier" class="form-label"
-            >Naam van het huisdier</label
-          >
-          <input
-            type="text"
-            id="naamHuisdier"
-            class="form-control"
-            placeholder="Vul de naam van het huisdier in"
-          />
-          <div class="invalid-feedback">
-            Vul de extra informatie in of haal de checkbox weg.
-          </div>
-        </div>
-
+         <div id="huisdierenVelden" class="mb-3 visually-hidden"></div>
+         
         <div class="d-flex gap-2">
           <button type="submit" class="btn btn-primary">Verstuur</button>
           <button type="reset" class="btn btn-outline-secondary">Reset</button>
